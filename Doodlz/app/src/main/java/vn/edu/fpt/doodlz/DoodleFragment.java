@@ -149,30 +149,35 @@ public class DoodleFragment extends Fragment
     public boolean onOptionsItemSelected(MenuItem item)
     {
         // switch based on the MenuItem id
-        switch (item.getItemId())
-        {
-            case R.id.color:
-                ColorDialogFragment colorDialog = new ColorDialogFragment();
-                colorDialog.show(getFragmentManager(), "color dialog");
-                return true; // consume the menu event
-            case R.id.lineWidth:
-                LineWidthDialogFragment widthdialog =
-                        new LineWidthDialogFragment();
-                widthdialog.show(getFragmentManager(), "line width dialog");
-                return true; // consume the menu event
-            case R.id.eraser:
-                doodleView.setDrawingColor(Color.WHITE); // line color white
-                return true; // consume the menu event
-            case R.id.clear:
-                confirmErase(); // confirm before erasing image
-                return true; // consume the menu event
-            case R.id.save:
-                doodleView.saveImage(); // save the current image
-                return true; // consume the menu event
-            case R.id.print:
-                doodleView.printImage(); // print the current images
-                return true; // consume the menu event
-        } // end switch
+        int itemId = item.getItemId();
+
+        if (itemId == R.id.color){
+            ColorDialogFragment colorDialog = new ColorDialogFragment();
+            colorDialog.show(getFragmentManager(), "color dialog");
+            return true; // consume the menu event
+        }
+        if (itemId == R.id.lineWidth){
+            LineWidthDialogFragment widthdialog =
+                    new LineWidthDialogFragment();
+            widthdialog.show(getFragmentManager(), "line width dialog");
+            return true; // consume the menu event
+        }
+        if (itemId == R.id.eraser){
+            doodleView.setDrawingColor(Color.WHITE); // line color white
+            return true; // consume the menu event
+        }
+        if (itemId == R.id.clear){
+            confirmErase(); // confirm before erasing image
+            return true; // consume the menu event
+        }
+        if (itemId == R.id.save){
+            doodleView.saveImage(); // save the current image
+            return true; // consume the menu event
+        }
+        if (itemId == R.id.print){
+            doodleView.printImage(); // print the current images
+            return true; // consume the menu event
+        }
 
         return super.onOptionsItemSelected(item); // call super's method
     } // end method onOptionsItemSelected
