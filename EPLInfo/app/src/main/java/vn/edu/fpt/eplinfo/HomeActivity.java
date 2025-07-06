@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
+import vn.edu.fpt.eplinfo.util.SeasonUtil;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -12,16 +13,46 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        Button btnStandings = findViewById(R.id.btnStandings);
-        Button btnMatches = findViewById(R.id.btnMatches);
+        // Lấy mùa giải hiện tại và mùa trước
+        String currentSeason = SeasonUtil.getCurrentSeason();
+        String previousSeason = SeasonUtil.getPreviousSeason();
 
-        btnStandings.setOnClickListener(v -> {
+        Button btnStandingsCurrent = findViewById(R.id.btnStandingsCurrent);
+        Button btnMatchesCurrent = findViewById(R.id.btnMatchesCurrent);
+        Button btnStandingsPrevious = findViewById(R.id.btnStandingsPrevious);
+        Button btnMatchesPrevious = findViewById(R.id.btnMatchesPrevious);
+
+        // Cập nhật văn bản nút với mùa giải động
+        btnStandingsCurrent.setText("Bảng Xếp Hạng Mùa " + SeasonUtil.getSeasonDisplay(currentSeason));
+        btnMatchesCurrent.setText("Lịch Thi Đấu & Kết Quả Mùa " + SeasonUtil.getSeasonDisplay(currentSeason));
+        btnStandingsPrevious.setText("Bảng Xếp Hạng Mùa " + SeasonUtil.getSeasonDisplay(previousSeason));
+        btnMatchesPrevious.setText("Lịch Thi Đấu & Kết Quả Mùa " + SeasonUtil.getSeasonDisplay(previousSeason));
+
+        // Bảng xếp hạng mùa hiện tại
+        btnStandingsCurrent.setOnClickListener(v -> {
             Intent intent = new Intent(HomeActivity.this, MainActivity.class);
+            intent.putExtra("season", currentSeason);
             startActivity(intent);
         });
 
-        btnMatches.setOnClickListener(v -> {
+        // Lịch thi đấu mùa hiện tại
+        btnMatchesCurrent.setOnClickListener(v -> {
             Intent intent = new Intent(HomeActivity.this, MatchScheduleActivity.class);
+            intent.putExtra("season", currentSeason);
+            startActivity(intent);
+        });
+
+        // Bảng xếp hạng mùa trước
+        btnStandingsPrevious.setOnClickListener(v -> {
+            Intent intent = new Intent(HomeActivity.this, MainActivity.class);
+            intent.putExtra("season", previousSeason);
+            startActivity(intent);
+        });
+
+        // Lịch thi đấu mùa trước
+        btnMatchesPrevious.setOnClickListener(v -> {
+            Intent intent = new Intent(HomeActivity.this, MatchScheduleActivity.class);
+            intent.putExtra("season", previousSeason);
             startActivity(intent);
         });
     }
