@@ -5,26 +5,30 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
-import java.util.List;
-
 import vn.edu.fpt.eplinfo.R;
 import vn.edu.fpt.eplinfo.model.StandingResponse;
 
-public class StandingAdapter extends RecyclerView.Adapter<StandingAdapter.ViewHolder> {
-    private List<StandingResponse.TableItem> table;
+import java.util.List;
 
-    public StandingAdapter(List<StandingResponse.TableItem> table) {
-        this.table = table;
+public class StandingAdapter extends RecyclerView.Adapter<StandingAdapter.ViewHolder> {
+    private List<StandingResponse.Table> tableList;
+
+    public StandingAdapter(List<StandingResponse.Table> tableList) {
+        this.tableList = tableList;
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        TextView teamName, points, position;
+        TextView tvPosition, tvTeamName, tvPlayedGames, tvWon, tvDraw, tvLost, tvPoints;
 
         public ViewHolder(View view) {
             super(view);
-            teamName = view.findViewById(R.id.tvTeamName);
-            points = view.findViewById(R.id.tvPoints);
-            position = view.findViewById(R.id.tvPosition);
+            tvPosition = view.findViewById(R.id.tvPosition);
+            tvTeamName = view.findViewById(R.id.tvTeamName);
+            tvPlayedGames = view.findViewById(R.id.tvPlayedGames);
+            tvWon = view.findViewById(R.id.tvWon);
+            tvDraw = view.findViewById(R.id.tvDraw);
+            tvLost = view.findViewById(R.id.tvLost);
+            tvPoints = view.findViewById(R.id.tvPoints);
         }
     }
 
@@ -37,14 +41,24 @@ public class StandingAdapter extends RecyclerView.Adapter<StandingAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(StandingAdapter.ViewHolder holder, int position) {
-        StandingResponse.TableItem item = table.get(position);
-        holder.teamName.setText(item.getTeam().getName());
-        holder.points.setText("Points: " + item.getPoints());
-        holder.position.setText("Position: " + item.getPosition());
+        StandingResponse.Table table = tableList.get(position);
+        holder.tvPosition.setText(String.valueOf(table.getPosition()));
+        holder.tvTeamName.setText(table.getTeam().getName());
+        holder.tvPlayedGames.setText(String.valueOf(table.getPlayedGames()));
+        holder.tvWon.setText(String.valueOf(table.getWon()));
+        holder.tvDraw.setText(String.valueOf(table.getDraw()));
+        holder.tvLost.setText(String.valueOf(table.getLost()));
+        holder.tvPoints.setText(String.valueOf(table.getPoints()));
     }
 
     @Override
     public int getItemCount() {
-        return table.size();
+        return tableList.size();
+    }
+
+    // Cập nhật dữ liệu khi lọc
+    public void updateData(List<StandingResponse.Table> newList) {
+        this.tableList = newList;
+        notifyDataSetChanged();
     }
 }

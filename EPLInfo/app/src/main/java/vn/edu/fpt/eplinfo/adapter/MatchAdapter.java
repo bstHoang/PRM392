@@ -95,4 +95,10 @@ public class MatchAdapter extends RecyclerView.Adapter<MatchAdapter.ViewHolder> 
     public int getItemCount() {
         return matches.size();
     }
+
+    // Cập nhật dữ liệu khi lọc
+    public void updateData(List<MatchResponse.Match> newList) {
+        this.matches = newList;
+        notifyDataSetChanged();
+    }
 }
