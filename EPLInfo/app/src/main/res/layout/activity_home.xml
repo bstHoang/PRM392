@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
+    <!-- Tiêu đề EPL Info -->
     <TextView
         android:id="@+id/tvAppTitle"
         android:layout_width="wrap_content"
@@ -18,53 +19,168 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
-        android:id="@+id/btnStandingsCurrent"
-        android:layout_width="0dp"
+    <!-- Mùa giải hiện tại -->
+    <TextView
+        android:id="@+id/tvCurrentSeason"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bảng Xếp Hạng Mùa Hiện Tại"
-        android:padding="12dp"
-        android:textSize="16sp"
+        android:text="Mùa giải hiện tại"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="8dp"
         app:layout_constraintTop_toBottomOf="@id/tvAppTitle"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/btnMatchesCurrent"
-        app:layout_constraintVertical_chainStyle="packed" />
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/btnMatchesCurrent"
+    <!-- Dòng kẻ ngang dưới Mùa giải hiện tại -->
+    <View
+        android:id="@+id/currentSeasonDivider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#000000"
+        app:layout_constraintTop_toBottomOf="@id/tvCurrentSeason"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Hình ảnh và nút cho mùa hiện tại -->
+    <LinearLayout
+        android:id="@+id/currentSeasonLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Lịch Thi Đấu và Kết Quả Mùa Hiện Tại"
-        android:padding="12dp"
-        android:textSize="16sp"
-        app:layout_constraintTop_toBottomOf="@id/btnStandingsCurrent"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/currentSeasonDivider"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/btnStandingsPrevious" />
+        app:layout_constraintEnd_toEndOf="parent">
 
-    <Button
-        android:id="@+id/btnStandingsPrevious"
+        <!-- Cột BXH -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivStandingsCurrent"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pic1"
+                android:contentDescription="Bảng xếp hạng mùa hiện tại" />
+
+            <Button
+                android:id="@+id/btnStandingsCurrent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BXH"
+                android:padding="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Cột Trận đấu -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivMatchesCurrent"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pic2"
+                android:contentDescription="Trận đấu mùa hiện tại" />
+
+            <Button
+                android:id="@+id/btnMatchesCurrent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trận đấu"
+                android:padding="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Mùa giải trước -->
+    <TextView
+        android:id="@+id/tvPreviousSeason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mùa giải trước"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/currentSeasonLayout"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Dòng kẻ ngang dưới Mùa giải trước -->
+    <View
+        android:id="@+id/previousSeasonDivider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#000000"
+        app:layout_constraintTop_toBottomOf="@id/tvPreviousSeason"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Hình ảnh và nút cho mùa trước -->
+    <LinearLayout
+        android:id="@+id/previousSeasonLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Bảng Xếp Hạng Mùa Trước"
-        android:padding="12dp"
-        android:textSize="16sp"
-        app:layout_constraintTop_toBottomOf="@id/btnMatchesCurrent"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/previousSeasonDivider"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/btnMatchesPrevious" />
+        app:layout_constraintEnd_toEndOf="parent">
 
-    <Button
-        android:id="@+id/btnMatchesPrevious"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Lịch Thi Đấu và Kết Quả Mùa Trước"
-        android:padding="12dp"
-        android:textSize="16sp"
-        app:layout_constraintTop_toBottomOf="@id/btnStandingsPrevious"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        <!-- Cột BXH -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivStandingsPrevious"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pic1"
+                android:contentDescription="Bảng xếp hạng mùa trước" />
+
+            <Button
+                android:id="@+id/btnStandingsPrevious"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BXH"
+                android:padding="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Cột Trận đấu -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivMatchesPrevious"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pic2"
+                android:contentDescription="Trận đấu mùa trước" />
+
+            <Button
+                android:id="@+id/btnMatchesPrevious"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trận đấu"
+                android:padding="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

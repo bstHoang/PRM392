@@ -23,10 +23,10 @@ public class HomeActivity extends AppCompatActivity {
         Button btnMatchesPrevious = findViewById(R.id.btnMatchesPrevious);
 
         // Cập nhật văn bản nút với mùa giải động
-        btnStandingsCurrent.setText("Bảng Xếp Hạng Mùa " + SeasonUtil.getSeasonDisplay(currentSeason));
-        btnMatchesCurrent.setText("Lịch Thi Đấu & Kết Quả Mùa " + SeasonUtil.getSeasonDisplay(currentSeason));
-        btnStandingsPrevious.setText("Bảng Xếp Hạng Mùa " + SeasonUtil.getSeasonDisplay(previousSeason));
-        btnMatchesPrevious.setText("Lịch Thi Đấu & Kết Quả Mùa " + SeasonUtil.getSeasonDisplay(previousSeason));
+        btnStandingsCurrent.setText("BXH");
+        btnMatchesCurrent.setText("Lịch Thi Đấu");
+        btnStandingsPrevious.setText("BXH");
+        btnMatchesPrevious.setText("Lịch Thi Đấu");
 
         // Bảng xếp hạng mùa hiện tại
         btnStandingsCurrent.setOnClickListener(v -> {
