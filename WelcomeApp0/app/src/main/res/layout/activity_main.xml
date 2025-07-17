@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcomeRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="@dimen/welcome_textsize" />
+
+    <ImageView
+        android:id="@+id/droidImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeTextView"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/android_logo"
+        app:srcCompat="@drawable/android" />
+
+    <ImageView
+        android:id="@+id/bugImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/droidImageView"
+        android:contentDescription="@string/deitel_logo"
+        app:srcCompat="@drawable/bug" />
+</RelativeLayout>

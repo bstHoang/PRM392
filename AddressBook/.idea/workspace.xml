@@ -9,17 +9,962 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4694400a-15a9-4c4d-836d-5dde0c1c335d" name="Changes" comment="">
+    <list default="true" id="80fdfed2-8286-4438-af2f-e65cefa7ba79" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/app/src/main/java/vn/edu/fpt/addressbook/AddEditFragment.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/vn/edu/fpt/addressbook/ContactListFragment.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/vn/edu/fpt/addressbook/DatabaseConnector.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/vn/edu/fpt/addressbook/DetailsFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/vn/edu/fpt/addressbook/MainActivity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout-large/activity_main.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_edit.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_details.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/fragment_contact_list_menu.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/fragment_details_menu.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk/debug/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk_ide_redirect_file/debug/redirect.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/app_metadata/debug/app-metadata.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compatible_screen_manifest/debug/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_0/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_1/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_2/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_3/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/jar_43e5288536caf0f0acf48b733e4a61c61bb3d4ba9c21db0bb0a9bc360c0808b2_bucket_0/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/jar_43e5288536caf0f0acf48b733e4a61c61bb3d4ba9c21db0bb0a9bc360c0808b2_bucket_1/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/jar_43e5288536caf0f0acf48b733e4a61c61bb3d4ba9c21db0bb0a9bc360c0808b2_bucket_2/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/jar_43e5288536caf0f0acf48b733e4a61c61bb3d4ba9c21db0bb0a9bc360c0808b2_bucket_3/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_number_of_buckets_file/debug/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+2M8INc2DQfm2WNXO_kOKUalOVs=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+_9ADYpNfOZLxnpfxMC_WmEyWMw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/0ioDlpokC7L7u+KW_LgA9f2RbE4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/2NUxVb4_cqTBg0v+tPcF+jxort4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3WulegfuzLdxi2eGqaq74sKfB8I=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/4n0eDv1fpR2a0QhHSpj1RavflAg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/8OFF7WHWBPh5KGOM7aBmiZ_Ut3k=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/B5tPaZ6Q8Y4TpUa6XPhJt+jyAkc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Bay1Jvwt89CbD8OHEqHeL8VAoAI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/C0LL0eO48N7QQg+Y_ogvoiHSD60=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/CSJcXs5cQUI__+cyk0WYtXHHKvQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Gi2Vx13G7HhY_78FMN9OXF0ICtI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Hnxb_mhEYJ+ycHe86wA0AbD+97M=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/IXhdPpuEq6LEXfGJiMamW4cOF_o=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/JmwxQBGziqt0NEo1B3yBnaKzl_g=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Lx346cuukMwt4AdHXMvWLaSkhyE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/M0qa3NbK8liyk9vpgy0G4HLqGYo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/M1DvrmEEgOp1gFz4Th4mxgkxud8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/MM5RUhOqr_ZHfuEsMT5IstWCjPc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/NBaUzNzH2Kia2VVS2Zv7BW3tuls=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/OvPWJcTiDPAJFMq_NXFRMg99Qb0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ow9jwjIYJsu9v5UZTBm7FwAOn4w=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ql11MIa8oOX7_Hxb2PpcnBwNmus=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Qzju3bMV3iePv_x7atm0slMwC3Q=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/RI8jjR8MZClUaDc+NQPmE5NiWic=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/T_Q0E73tKFowX4GXpqkMM+HA2es=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/VG1mqLiFUDSzt6hQhTOhaL0TkzI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/VRwJewpIQPMR+Waw+wwRKNAStys=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/VjwQWHnIN0bfYIuB7cWawxMDCuA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/WsYVMR8aN9KZMRJAoZyJ8g_HJes=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/XJaD9RQ1qyxsizFBVlIcbrO0Wdc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Xi0YiQoaNajlgx9H8FqUGt1Nrl4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/XqsEBRu7466yy3W4Adiqb1PjqjI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ZBt48rCBMo6w_Y5QPCwSU68Q6PA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/aQpiL6GWODl4wAWAooNYOBlkAdI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/b1LJjD539hazWBD8yfqiyl9bT4I=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/cM1s6R1TuyRqsSk0LwQ8ow73hOY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fSWeNSUqzoLMH05K8shVwaKS9ok=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fwUcSpybFgpqYNhQWSNExiqpWnI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fy6Iog3KmuUWH207qvZSdyfWVDg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/gVrr12gcJLFYf4KmtpGzobfmfnk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/g_a7Ct6UI9Q9IrRIPDFQOtKVbnM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/j3GvRjohDsIHpIHXdWHySJYbNNI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mC9tlgNIYoQj4GrI1POKQUQkMsg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mZ_QeN6c8LassXk6nlwc62NGwq8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/nZAZ_XlEGKicjyVZsjV_XkHkEFs=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/nydBvSc15sGGU0lguZqoLvBK8aE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/o91vWG_bHGFVGOqPtXJc2uxe+9I=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/okU4GjiSSPymfnyag59aKV07oL8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/oxDTZYRHoUUG61s8s4pjVO+B9Wk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/pGKm5J83MOA5EFvA7208oF6diYc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tAJhoxNSE5pmpKDUFaDxDHAqQC8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tzrgGAp5DyjWnYwQArEpc9hcaZM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/u89ZCcPsF2vV9moGbGcNBpm4tN0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/uaEBYGBM6uPzpr79_2yXLshmpqg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/v6thf+02gQ_JtqHV2g4S1ecuzvo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/zB9Pw_34bx77xSMuiS0L8qi5xdI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/zU+EeInKzCwecPeE12kfDpvMpWM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/processDebugResources/resources-list-for-resources-debug.ap_.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/AddEditFragment$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/AddEditFragment$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/AddEditFragment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/AddEditFragment$AddEditFragmentListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/AddEditFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/ContactListFragment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/ContactListFragment$ContactListFragmentListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/ContactListFragment$GetContactsTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/ContactListFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/DatabaseConnector$DatabaseOpenHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/DatabaseConnector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/DetailsFragment$1$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/DetailsFragment$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/DetailsFragment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/DetailsFragment$DetailsFragmentListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/DetailsFragment$LoadContactTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/DetailsFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/vn/edu/fpt/addressbook/MainActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/base.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/drawable_ic_launcher_foreground.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/drawable_textview_border.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout-large_activity_main.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_fragment_add_edit.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_fragment_details.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/menu_fragment_contact_list_menu.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/menu_fragment_details_menu.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-anydpi_ic_launcher.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-anydpi_ic_launcher_round.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-af_values-af.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-am_values-am.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ar_values-ar.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-as_values-as.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-az_values-az.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-b+es+419_values-b+es+419.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-b+sr+Latn_values-b+sr+Latn.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-be_values-be.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-bg_values-bg.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-bn_values-bn.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-bs_values-bs.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ca_values-ca.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-cs_values-cs.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-da_values-da.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-de_values-de.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-el_values-el.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-en-rAU_values-en-rAU.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-en-rCA_values-en-rCA.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-en-rGB_values-en-rGB.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-en-rIN_values-en-rIN.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-en-rXC_values-en-rXC.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-es-rUS_values-es-rUS.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-es_values-es.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-et_values-et.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-eu_values-eu.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-fa_values-fa.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-fi_values-fi.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-fr-rCA_values-fr-rCA.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-fr_values-fr.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-gl_values-gl.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-gu_values-gu.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-h320dp-port-v13_values-h320dp-port-v13.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-h360dp-land-v13_values-h360dp-land-v13.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-h480dp-land-v13_values-h480dp-land-v13.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-h550dp-port-v13_values-h550dp-port-v13.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-h720dp-v13_values-h720dp-v13.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-hdpi-v4_values-hdpi-v4.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-hi_values-hi.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-hr_values-hr.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-hu_values-hu.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-hy_values-hy.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-in_values-in.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-is_values-is.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-it_values-it.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-iw_values-iw.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ja_values-ja.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ka_values-ka.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-kk_values-kk.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-km_values-km.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-kn_values-kn.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ko_values-ko.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ky_values-ky.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-land_values-land.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-large-v4_values-large-v4.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ldltr-v21_values-ldltr-v21.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ldrtl-v17_values-ldrtl-v17.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-lo_values-lo.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-lt_values-lt.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-lv_values-lv.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-mk_values-mk.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ml_values-ml.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-mn_values-mn.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-mr_values-mr.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ms_values-ms.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-my_values-my.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-nb_values-nb.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ne_values-ne.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-night-v8_values-night-v8.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-nl_values-nl.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-or_values-or.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-pa_values-pa.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-pl_values-pl.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-port_values-port.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-pt-rBR_values-pt-rBR.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-pt-rPT_values-pt-rPT.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-pt_values-pt.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ro_values-ro.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ru_values-ru.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-si_values-si.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sk_values-sk.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sl_values-sl.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-small-v4_values-small-v4.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sq_values-sq.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sr_values-sr.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sv_values-sv.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sw600dp-v13_values-sw600dp-v13.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-sw_values-sw.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ta_values-ta.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-te_values-te.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-th_values-th.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-tl_values-tl.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-tr_values-tr.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-uk_values-uk.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-ur_values-ur.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-uz_values-uz.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v16_values-v16.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v17_values-v17.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v18_values-v18.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v21_values-v21.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v22_values-v22.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v23_values-v23.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v24_values-v24.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v25_values-v25.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v26_values-v26.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v28_values-v28.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v31_values-v31.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-v34_values-v34.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-vi_values-vi.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-w320dp-land-v13_values-w320dp-land-v13.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-w360dp-port-v13_values-w360dp-port-v13.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-w400dp-port-v13_values-w400dp-port-v13.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-w600dp-land-v13_values-w600dp-land-v13.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-watch-v20_values-watch-v20.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-watch-v21_values-watch-v21.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-xlarge-v4_values-xlarge-v4.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-zh-rCN_values-zh-rCN.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-zh-rHK_values-zh-rHK.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-zh-rTW_values-zh-rTW.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values-zu_values-zu.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/values_values.arsc.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/xml_backup_rules.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/xml_data_extraction_rules.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-af.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-am.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ar.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-as.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-az.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+es+419.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+sr+Latn.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-be.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bn.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-cs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-el.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rAU.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rCA.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rGB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rIN.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rXC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es-rUS.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-et.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-eu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr-rCA.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h320dp-port-v13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h360dp-land-v13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h480dp-land-v13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h550dp-port-v13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h720dp-v13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hdpi-v4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-in.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-is.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-it.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-iw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ja.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ka.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kk.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-km.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kn.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ko.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ky.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-land.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-large-v4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ldltr-v21.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ldrtl-v17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lv.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mk.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ml.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mn.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ms.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-my.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ne.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-night-v8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-or.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-port.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rBR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rPT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ro.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ru.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-si.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sk.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-small-v4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sq.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sv.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw600dp-v13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-te.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-th.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uk.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ur.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uz.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v21.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v26.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v28.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v31.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v34.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-vi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w320dp-land-v13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w360dp-port-v13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w400dp-port-v13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w600dp-land-v13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v21.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-xlarge-v4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rCN.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rHK.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rTW.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/navigation_json/debug/navigation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/drawable/textview_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout-large-v4/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/fragment_add_edit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/fragment_details.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/menu/fragment_contact_list_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/menu/fragment_details_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-anydpi-v4/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-anydpi-v4/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-hdpi-v4/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-hdpi-v4/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-mdpi-v4/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-mdpi-v4/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-xhdpi-v4/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-xhdpi-v4/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-xxhdpi-v4/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-xxhdpi-v4/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-xxxhdpi-v4/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/mipmap-xxxhdpi-v4/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/values-night-v8/values-night-v8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/229bec80a559ecf8930ec982b587d8d1422b5b9b17820fbefab7030f61c5850f_0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/229bec80a559ecf8930ec982b587d8d1422b5b9b17820fbefab7030f61c5850f_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/229bec80a559ecf8930ec982b587d8d1422b5b9b17820fbefab7030f61c5850f_2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/229bec80a559ecf8930ec982b587d8d1422b5b9b17820fbefab7030f61c5850f_3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/AddEditFragment$1$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/AddEditFragment$1$2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/AddEditFragment$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/AddEditFragment$AddEditFragmentListener.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/AddEditFragment.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/ContactListFragment$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/ContactListFragment$ContactListFragmentListener.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/ContactListFragment$GetContactsTask.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/ContactListFragment.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/DatabaseConnector$DatabaseOpenHelper.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/DatabaseConnector.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/DetailsFragment$1$1$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/DetailsFragment$1$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/DetailsFragment$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/DetailsFragment$DetailsFragmentListener.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/DetailsFragment$LoadContactTask.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/DetailsFragment.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/vn/edu/fpt/addressbook/MainActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/signing_config_versions/debug/signing-config-versions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/source_set_path_map/debug/file-map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/variant_model/debug/variant_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/ContactListFragment.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/MainActivity.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/androidTest/java/vn/edu/fpt/cannongame/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/java/vn/edu/fpt/cannongame/CannonGameFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/java/vn/edu/fpt/cannongame/CannonView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/java/vn/edu/fpt/cannongame/Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/java/vn/edu/fpt/cannongame/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/layout/fragment_game.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/raw/blocker_hit.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/raw/cannon_fire.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/raw/target_hit.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/app/src/test/java/vn/edu/fpt/cannongame/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CannonGame/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/androidTest/java/vn/edu/fpt/doodlz/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/java/vn/edu/fpt/doodlz/ColorDialogFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/java/vn/edu/fpt/doodlz/DoodleFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/java/vn/edu/fpt/doodlz/DoodleView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/java/vn/edu/fpt/doodlz/EraseImageDialogFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/java/vn/edu/fpt/doodlz/LineWidthDialogFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/java/vn/edu/fpt/doodlz/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/layout/fragment_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/layout/fragment_doodle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/layout/fragment_line_width.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/menu-v19/doodle_fragment_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/menu/doodle_fragment_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/app/src/test/java/vn/edu/fpt/doodlz/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doodlz/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/androidTest/java/vn/edu/fpt/flagquiz/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Algeria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Angola.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Benin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Botswana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Burkina_Faso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Burundi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Cameroon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Cape_Verde.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Central_African_Republic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Chad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Comoros.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Dem._Rep._of_the_Congo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Djibouti.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Egypt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Eq._Guinea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Eritrea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Ethiopia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Gabon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Gambia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Ghana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Guinea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Guinea_Bissau.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Ivory_Coast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Kenya.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Lesotho.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Liberia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Libya.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Madagascar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Malawi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Mali.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Mauritania.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Mauritius.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Morocco.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Mozambique.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Namibia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Niger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Nigeria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Republic_of_the_Congo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Rwanda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Sao_Tome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Senegal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Seychelles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Sierra_Leone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Somalia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-South_Africa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Sudan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Swaziland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Tanzania.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Togo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Tunisia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Uganda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Zambia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Africa/Africa-Zimbabwe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Afghanistan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Armenia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Azerbaijan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Bahrain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Bangladesh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Bhutan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Brunei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Cambodia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-China.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Christmas_Island.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Georgia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Hong_Kong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-India.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Indonesia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Iran.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Iraq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Israel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Japan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Jordan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Kazakhstan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Kuwait.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Kyrgyzstan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Laos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Lebanon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Macao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Malaysia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Maldives.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Mongolia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Myanmar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Nepal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-North_Korea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Oman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Pakistan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Philippines.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Qatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Saudi_Arabia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Singapore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-South_Georgia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-South_Korea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Sri_Lanka.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Syria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Taiwan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Tajikistan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Thailand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Tibet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Timor-Leste.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Turkey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Turkmenistan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-UAE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Uzbekistan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Vietnam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Asia/Asia-Yemen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Albania.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Andorra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Austria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Belarus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Belgium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Bosnia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Bulgaria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Croatia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Cyprus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Czech_Republic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Denmark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Estonia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Faroe_Islands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Finland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-France.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Germany.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Gibraltar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Greece.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Greenland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Hungary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Iceland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Ireland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Italy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Latvia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Liechtenstein.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Lithuania.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Luxembourg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Macedonia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Malta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Moldova.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Monaco.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Netherlands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Norway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Poland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Portugal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Romania.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Russian_Federation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-San_Marino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Serbia_and_Montenegro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Slovakia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Slovenia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Soviet_Union.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Spain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Sweden.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Switzerland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Ukraine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-United_Kingdom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Europe/Europe-Vatican_City.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Anguilla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Antigua_and_Barbuda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Aruba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Bahamas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Barbados.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Belize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Bermuda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-British_Virgin_Islands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Canada.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Cayman_Islands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Costa_Rica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Cuba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Dominica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Dominican_Republic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-El_Salvador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Grenada.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Guatemala.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Haiti.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Honduras.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Jamaica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Martinique.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Mexico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Montserrat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Nicaragua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Panama.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Puerto_Rico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Saint_Kitts_and_Nevis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Saint_Lucia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Saint_Pierre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-St._Vicent_and_Grenadines.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-Turks_and_Caicos_Islands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-US_Virgin_Islands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/North_America/North_America-United_States_of_America.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-American_Samoa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Australia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Cook_Islands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Fiji.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Guam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Kiribati.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Marshall_Islands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Micronesia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Nauru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-New_Zealand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Niue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Norfolk_Island.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Palau.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Papua_New_Guinea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Pitcairn_Islands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Samoa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Soloman_Islands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Tonga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Tuvalu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Vanuatu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/Oceania/Oceania-Wallis_and_Futuna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/South_America/South_America-Argentina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/South_America/South_America-Bolivia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/South_America/South_America-Brazil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/South_America/South_America-Chile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/South_America/South_America-Colombia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/South_America/South_America-Ecuador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/South_America/South_America-Falkland_Islands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/South_America/South_America-French_Polynesia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/South_America/South_America-Guyana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/South_America/South_America-Netherlands_Antilles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/South_America/South_America-Paraguay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/South_America/South_America-Peru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/South_America/South_America-Suriname.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/South_America/South_America-Trinidad_and_Tobago.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/South_America/South_America-Uruguay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/assets/South_America/South_America-Venezuela.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/java/vn/edu/fpt/flagquiz/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/java/vn/edu/fpt/flagquiz/QuizFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/java/vn/edu/fpt/flagquiz/SettingsActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/java/vn/edu/fpt/flagquiz/SettingsFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/anim/incorrect_shake.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/layout-large-land/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/layout/activity_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/layout/fragment_quiz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/menu/main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/values/arrays.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/main/res/xml/preferences.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/app/src/test/java/vn/edu/fpt/flagquiz/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlagQuiz/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/androidTest/java/vn/edu/fpt/premierleagueinformation/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/java/vn/edu/fpt/premierleagueinformation/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/java/vn/edu/fpt/premierleagueinformation/adapter/StandingAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/java/vn/edu/fpt/premierleagueinformation/api/ApiClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/java/vn/edu/fpt/premierleagueinformation/api/FootballApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/java/vn/edu/fpt/premierleagueinformation/model/StandingResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/layout/item_standing.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/app/src/test/java/vn/edu/fpt/premierleagueinformation/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PremierLeagueInformation/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/src/androidTest/java/vn/edu/fpt/tipcalculator/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/app/src/androidTest/java/vn/edu/fpt/tipcalculator/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/src/main/java/vn/edu/fpt/tipcalculator/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/app/src/main/java/vn/edu/fpt/tipcalculator/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/xml/backup_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/app/src/test/java/vn/edu/fpt/tipcalculator/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/app/src/test/java/vn/edu/fpt/tipcalculator/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../TipCalculator/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TipCalculator/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/androidTest/java/vn/edu/fpt/twittersearches/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/java/vn/edu/fpt/twittersearches/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/layout/list_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/app/src/test/java/vn/edu/fpt/twittersearches/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwitterSearches/settings.gradle.kts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +980,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="resourceFile" />
         <option value="valueResourceFile" />
         <option value="layoutResourceFile" />
-        <option value="resourceFile" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,22 +992,30 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2z1qH3e2vZg18ULhi36jwxCVRKJ" />
+  <component name="ProjectId" id="2zzHTjv4mjpRpolNGIXAwAJWStk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "last_directory_selection": "D:/PRM392/AddressBook/app/src/main/res/values",
+    "last_opened_file_path": "D:/PRM392/TipCalculator",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PRM392\AddressBook\app\src\main\res\values" />
+      <recent name="D:\PRM392\AddressBook\app\src\main\res\menu" />
+      <recent name="D:\PRM392\AddressBook\app\src\main\java\vn\edu\fpt\addressbook" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="AddressBook.app.main" />
@@ -135,11 +1087,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4694400a-15a9-4c4d-836d-5dde0c1c335d" name="Changes" comment="" />
-      <created>1750908838351</created>
+      <changelist id="80fdfed2-8286-4438-af2f-e65cefa7ba79" name="Changes" comment="" />
+      <created>1752726990179</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1750908838351</updated>
+      <updated>1752726990179</updated>
     </task>
     <servers />
   </component>
